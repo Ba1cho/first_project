@@ -1,0 +1,130 @@
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,900);
+
+*, *:before, *:after{
+  box-sizing: border-box;
+  font: 300 1em/1.5 'Merriweather', serif; color: #242424;
+  padding: 0; margin: 0;
+}
+
+html, body{;
+
+  min-height: 150vh;
+}
+
+h5{
+  font: 2rem;
+}
+p{
+  font: 2rem; 
+}
+.mb-2{
+  font: 2rem;
+  font-size: 1.75rem;
+}
+.h5, h5 {
+    font-size: 1.75rem;
+}
+label{
+  font: 2rem;
+  font-size: 1.75rem;
+}
+span{
+  font: 2rem;
+  font-size: 1.75rem;
+}
+.form-outline .form-control.form-control-lg {
+    font-size: 1.5rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.small, small {
+    font-size: 1.5em;
+}
+.content{
+  width: 1024px; 
+  margin: auto;
+  padding: 100px 0;
+}
+  h1{
+    color: #111;
+    font-size: 3em;
+    font-weight: 900;
+    padding: 0 0 20px 0;
+  }
+  h2{
+    color: #111;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 0 0 15px 0;
+  }
+  p{
+    font-size: 1.25em;
+    padding: 0 0 40px 0;
+  }
+
+header{
+    background: #111 ;
+}
+
+}
+header img{
+    width: 10%;
+    height: 10%;
+}
+.container {
+
+  width: 100%;
+  max-width: 1024px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+}
+nav a {
+  text-decoration: none;
+  line-height: 38px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+
+    color: rgb(236, 240, 241);
+    font-size: 20px;
+    line-height: 36px;
+    border: 2px solid #111;
+    padding: 0px 16px;
+    transition: all .3s;
+}
+.menu a:hover{
+    border-color: #ffc222;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #00ADE4;
+}
+.container:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
